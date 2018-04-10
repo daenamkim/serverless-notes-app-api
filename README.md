@@ -21,3 +21,5 @@ There is a problem after deployment.
   "Resource": "arn:aws:dynamodb:us-east-1:*:*"
 }
 ```
+
+[GitHub Issue](https://github.com/AnomalyInnovations/serverless-stack-com/issues/28)
