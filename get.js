@@ -15,9 +15,9 @@ export async function main(event, context, callback) {
     if (result.Item) {
       callback(null, success(result.Item));
     } else {
-      callback(null, failure({ status: false, error: "Item not found." }));
+      callback(null, failure({status: false, error: "Item not found."}));
     }
   } catch (e) {
-    callback(null, failure({ status: false }));
+    callback(null, failure({status: false}));
   }
 }
