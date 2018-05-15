@@ -15,6 +15,7 @@ export async function main(event, context, callback) {
     // Return the matching list of items in response body
     callback(null, success(result.Items));
   } catch (e) {
+    console.error(e);
     callback(null, failure({status: false}));
   }
 }
